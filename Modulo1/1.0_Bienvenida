@@ -1,0 +1,22 @@
+El presente curso fue desarrollado por OpenEDG Python Institute en asociación con Cisco Networking Academy
+
+Temario---------------------
+*cómo adoptar técnicas generales de codificación y mejores prácticas en tus proyectos;
+*cómo procesar cadenas;
+*cómo usar la programación orientada a objetos en Python;
+*cómo importar y usar los módulos de Python: math, random, platform, os, time, datetime, y calendar;
+*cómo crear y usar tus propios módulos y paquetes de Python;
+*cómo usar el mecanismo de excepciones en Python;
+*cómo usar generadores, iteradores y cierres en Python;
+*cómo procesar archivos.
+
+Modulos---------------------
+Módulo 1
+Módulos, Paquetes y PIP;
+Módulo 2
+Cadenas, métodos de listas y cadenas, y excepciones;
+Módulo 3
+Programación Orientada a Objetos;
+Módulo 4
+Misceláneos (generadores, iteradores, cierres, flujo de archivos, procesamiento de archivos de texto y binarios, los módulos os, time, datetime, y calendar).
+

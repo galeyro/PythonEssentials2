@@ -1,0 +1,32 @@
+Un codigo que no crece puede que quede completamente inutilizable o esté abandonado
+
+Un código más grande siempre significa un mantenimiento más dificil
+
+Si se desea que dicho proyecto de software se complete con éxito, se deben tener los medios que permitan:
+
+*Dividir todas las tareas entre los desarrolladores.
+*Después, unir todas las partes creadas en un todo funcional.
+
+Por ejemplo, un determinado proyecto se puede dividir en dos partes principales:
+
+*La interfaz de usuario (la parte que se comunica con el usuario mediante widgets y una pantalla gráfica).
+*La lógica (la parte que procesa los datos y produce resultados).
+
+Cada parte se puede dividir en piezas más pequeñas, y asi sucesivamente. Ese proceso se denomina descomposición.
+
+------------------------------------------------
+¿Cómo hacer uso de un módulo?
+
+Modulo: Archivo que contiene definiciones y secuencias de Python.
+
+Usuario -> Emplea un modulo existente
+Proveedor -> Crea un nuevo módulo
+
+Todos los modulos junto con funciones integradas forman la BIBLIOTECA ESTÁNDAR DE PYTHON. 
+
+Lista completa de todos los <<volúmenes>> recopilados en esa biblioteca:
+https://docs.python.org/3/library/index.html
+
+--------------------------------------------------
+Importando un módulo
+
