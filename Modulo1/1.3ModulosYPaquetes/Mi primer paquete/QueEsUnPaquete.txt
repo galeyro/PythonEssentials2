@@ -1,0 +1,8 @@
+Módulos y Paquetes en Python
+En Python, un módulo es simplemente un archivo que contiene definiciones y declaraciones de Python, como funciones, variables, y clases. Es una manera de organizar y reutilizar el código. Puedes escribir tus propios módulos igual que cualquier otro script, solo necesitas guardar el archivo con extensión .py.
+
+Módulo: Un archivo de Python con extensión .py que contiene definiciones de funciones, clases, y variables.
+Buena práctica: No mezclar funciones de diferentes aplicaciones dentro de un módulo. Agrupa funciones relacionadas y asigna nombres claros y descriptivos a los módulos.
+Cuando tienes muchos módulos, es útil organizarlos en paquetes. Un paquete es un directorio que contiene múltiples módulos y un archivo especial __init__.py.
+
+Paquete: Un directorio que contiene un conjunto de módulos, junto con un archivo __init__.py. Este archivo puede estar vacío o puede ejecutar código de inicialización para el paquete.
