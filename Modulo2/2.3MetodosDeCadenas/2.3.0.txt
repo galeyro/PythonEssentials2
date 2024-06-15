@@ -1,0 +1,1 @@
+Veamos algunos métodos estándar de cadenas en Python. Vamos a analizarlos en orden alfabético, cualquier orden tiene tanto desventajas como ventajas, por lo que la elección puede ser aleatoria.
