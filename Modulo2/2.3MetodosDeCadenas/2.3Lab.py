@@ -11,14 +11,31 @@ Utiliza la plantilla en el editor. Prueba tu código con cuidado.
 """
 
 def mysplit(strng):
-    #
-    # coloca tu código aquí
-    #
+    #strng es mi string que está compuesto por caractéres
+    #Utilizaremos el codigo ASCII junto con una lista para identificar que elemento está en la cadena
+    #el caracter espacio es el codigo ASCII 32
+
+    my_list = []#lista vacia para guardar los elementos de la cadena
+    temp = [] #lista temporal para guardar las variables
+    for i in strng:
+        if ord(i) != 32:
+            temp.append(i)
+        elif ord(i) == 32:
+            my_list.append("".join(temp))
+            temp = []#limpiamos la lista temporal
+
+    #mostramos en pantalla la lista
+    print(my_list)
+
 
 
 print(mysplit("Ser o no ser, esa es la cuestión"))
+print("\n\n")
 print(mysplit("Ser o no ser, esa es la cuestión"))
+print("\n\n")
 print(mysplit("   "))
+print("\n\n")
 print(mysplit(" abc "))
+print("\n\n")
 print(mysplit(""))
     
