@@ -33,7 +33,7 @@ def mysplit(strng):
             break#salimos del ciclo
 
     if boolVacia:
-        lista_vacia=[""]#lista vacia con un elemento
+        lista_vacia=[]#lista vacia con un elemento
         print(lista_vacia)#mostramos una lista vacia tal como pide la funcion
     else:
         for i in my_list:
